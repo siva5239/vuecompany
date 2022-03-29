@@ -10,10 +10,9 @@
             >Select which form you want to fill out:</label
           >
           <div class="col-sm-5">
-            <select class="form-control" id="exampleSelect"  v-model="userdata.basicaddcontactform">
-              <option value="Basic Add Contact Form" selected>
-                Basic Add Contact Form
-              </option>
+            <select class="form-control" id="exampleSelect" v-model="userdata.basicaddcontactform">
+              <option default selected>Select Form</option>
+              <option value="Basic Add Contact Form">Basic Add Contact Form</option>
               <option value="Basic Add Form">Basic Add Form</option>
             </select>
           </div>
