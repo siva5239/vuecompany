@@ -13,7 +13,7 @@
       
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-         Contacts
+        <b>Contacts</b>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <!-- <a class="dropdown-item" href="#">View Companies</a>
@@ -26,14 +26,14 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-         Companies
+         <b>Companies</b>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <!-- <a class="dropdown-item" href="#">View Companies</a>
           <a class="dropdown-item" href="#">Add Companies</a> -->
            <!-- <router-link class="nav-link" to="/company">Adddata</router-link> -->
            <router-link class="dropdown-item nav-link" to="/" >View Companies</router-link>
-           <router-link class="dropdown-item nav-link" to="/addcompany"  >Add Company</router-link>
+           <router-link class="dropdown-item nav-link" to="/addcompany">Add Company</router-link>
            <a class="dropdown-item nav-link" href="#">Import Companies</a>
         </div>
       </li>
@@ -75,5 +75,6 @@ export default {
   background-color: rgba(65,0,217,255);
   
 }
+
 
 </style>

@@ -1,5 +1,7 @@
 <template>
+
     <div class="card">
+      <div class="card-header"> Add CompanyDetails</div>
         <div class="card-body">
       <form >
                 <div class="form-group">
@@ -65,6 +67,7 @@
                <button class="btn btn-primary" @click="AddCompany">AddCompany</button>
               </form>
         </div>
+      
     </div>
 </template>
 <script>
